@@ -1,0 +1,44 @@
+SubClasses in C
+-----------------
+1)Subclassing is used when a class needs to inherit certain properties and behaviour from its another class, often termed as parent class. 
+ 
+2)The child class also has a provision to either define its own additional behavior or override the behavior it inherited from the parent class.
+
+3)A class is a group of properties and methods that is suitable to be used by itself and it's child classes only.
+
+4)In contrast, classes are used to declare methods and properties associated with only that class.
+
+5)A class can inherit only from 1 class directly, however a class can be a parent to many child classes.
+
+6)Subclassing is used to indicate a hierarchical relationship between the parent and the child classes.
+
+7)A child class inheriting from a parent class has an "is-a" relationship. 
+
+8)They are strictly meant to be used only in the classes that have related members and methods.
+
+9)A child class associates the variables with them which were used in a parent class thereby allowing access to the parent's variables as well.
+
+
+
+protocols in objective C
+-------------------------
+1)Protocols are used to declare methods which are supposed to be used for a specific situation. 
+When the method is defined, it may have different definitions with respect to each class.
+
+2)A class conforms to a protocol only when the class has implemented all the required methods of the protocol. 
+Thus, it ensures that a certain form of method template is implemented.
+
+
+3)A protocol is a group of related properties and methods that can be implemented by any class just by adapting the protocol.
+
+4)A protocol is used to declare methods and properties that are not specific to a class. It can be used by any class.
+
+5)A class can conform to many protocols simultaneously. 
+
+6)Protocols are used to indicate non-hierarchical similiarities between the classes.
+
+7)Protocols do not have any variables associated with them and hence a class conforming to it will not have access to any additional variables.
+
+
+
+
