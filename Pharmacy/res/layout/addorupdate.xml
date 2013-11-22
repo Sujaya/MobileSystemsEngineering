@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background" >
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/text3"
+        android:layout_alignBottom="@+id/text3"
+        android:layout_alignParentRight="true"
+        android:ems="10"
+        android:hint="@string/empty"
+        android:width="150dp" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginRight="26dp"
+        android:layout_toLeftOf="@+id/editText2"
+        android:padding="10dp"
+        android:text="@string/quantity"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/menu2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/update2"
+        android:layout_alignBottom="@+id/update2"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_marginLeft="30dp"
+        android:text="@string/menu"
+        android:textColorHint="@android:color/white" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/text1"
+        android:layout_toRightOf="@+id/text3"
+        android:ems="10"
+        android:hint="@string/empty"
+        android:width="150dp" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/text3"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="48dp"
+        android:padding="10dp"
+        android:text="@string/medicinename"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/update2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/text3"
+        android:layout_marginBottom="31dp"
+        android:text="@string/update"
+        android:textColorHint="@android:color/white" />
+
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Pharmacy</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello">PHARMACY </string>
+    <string name="load">loading.... </string>
+    <string name="exit">DELETE</string>
+    <string name="list">LIST OF MEDICINES</string>
+    <string name="placeorder">PLACE ORDER</string>
+    <string name="medicinename">MEDICINE NAME</string>
+    <string name="quantity">QUANTITY</string>
+    <string name="update">UPDATE</string>
+    <string name="menu">MENU</string>
+    <string name="company">COMPANY</string>
+    <string name="order">ORDER</string>
+    <string name="cost">COST</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="empty"></string>
+     <string name="delete">Name of medicine to be deleted:</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_delete">Delete</string>
+
+</resources>

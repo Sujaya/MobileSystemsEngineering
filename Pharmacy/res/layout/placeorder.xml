@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background" >
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/text6"
+        android:layout_toRightOf="@+id/text6"
+        android:ems="10"
+        android:hint="@string/empty"
+        android:width="25dp" />
+
+    <TextView
+        android:id="@+id/text6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="130dp"
+        android:text="@string/medicinename"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/editText1"
+        android:layout_marginTop="81dp"
+        android:ems="10"
+        android:hint="@string/empty" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/text5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/editText2"
+        android:text="@string/quantity"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/text6"
+        android:layout_marginBottom="25dp"
+        android:text="@string/order"
+        android:textColorHint="@android:color/white" />
+
+    <Button
+        android:id="@+id/menu3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/order"
+        android:layout_alignBottom="@+id/order"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_marginLeft="36dp"
+        android:text="@string/menu"
+        android:textColorHint="@android:color/white" />
+
+</RelativeLayout>
